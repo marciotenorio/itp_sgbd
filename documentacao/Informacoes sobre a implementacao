@@ -1,0 +1,43 @@
+1 - Padrão para funções
+
+    Funções que retornarem 1 não foram executadas como o esperado, já se o retorno for 0 foram executadas perfeitamente. 
+
+2 - Formatação do código
+
+    Usaremos como padrão de formatação o plugin do Sublime "Easy Clang Format".
+
+3- Diretórios e arquivos auxiliares
+
+    Como parte da modularização os headers e os outros arquivos necessários para os cabeçalhos estão salvos na pasta "sgbd_itp/funcoes"
+
+    O diretorio "sgbd_itp/colunas_tabelas" é onde fica salvo o arquivo de texto que contém os nomes das colunas e seus respectivos tipos, sendo dessa forma por exemplo:
+
+    "nome_da_tabela.txt coluna1 coluna2 %u %s \n"
+
+    O diretorio "sgbd_itp/urls_tabelas" é onde fica salvo as tabelas existentes seguidas da quantidade de colunas que ela possui, por exemplo:
+    
+    "nome_da_tabela.txt 2\n"
+    
+4 - Informações sobre como obter o software, compilação, execução e debug com gdb ou valgrind:
+    
+    A priori este guia funciona apenas para ambientes GNU/Linux, logo se for a escolha executa-lo em outros ambientes, fica a cargo do usuário fazer as modificações necessárias.
+    
+    Para obter o software
+    git clone https://github.com/marciotenorio/sgbd_itp.git
+    
+    Compilar e executar o programa
+    cd sgbd_itp
+    make
+    make run
+    
+    Limpar os arquivos de compilação (arquivos objeto  e o executavel)
+    make clean
+    
+    Compilando e executando com o gdb    
+    make gdb
+    
+    Compilando e executando com o Valgrind
+    make valgrind 
+    
+ 
+

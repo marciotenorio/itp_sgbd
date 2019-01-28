@@ -1,0 +1,22 @@
+ITP T03 | PTP T03 
+Prof. Dr. Julio Cesar Paulino De Melo 
+
+Márcio Tenório Júnior
+
+    Todas as operações especificadas no documento do projeto foram implementadas:
+    Criar um tabela - OK
+    Listar todas as tabelas - OK
+    Criar uma nova linha na tabela  - OK
+    Editar os valores de uma tabela - OK
+    Criar uma nova coluna na tabela - OK
+    Listar todos os dados de uma tabela - OK
+    Pesquisar valor em uma tabela  - OK
+    Apagar valor de uma tabela  - OK
+    Apagar uma tabela - OK
+
+    Como extras foram feitos ou usados:
+    Git e Github - OK
+    Makefile - OK
+    Documentação usando Doxygen - OK
+
+
